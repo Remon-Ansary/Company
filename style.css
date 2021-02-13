@@ -148,17 +148,24 @@ body {font-family: Arial, Helvetica, sans-serif;}
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 0;
-  right: 0;
+  left: 20px;
+  right: 20px;
   height: 100%;
   width: 100%;
   opacity: 0;
   transition: .5s ease;
  
+ 
+}
+.image-thumbnail{
+  padding-left: 100px;
 }
 
 .image-thumbnail:hover .overlay {
-  opacity: 1;                     
+  
+  padding-left: 20px 20px;
+  padding-right: 2px;
+                       
 }
 .text {
   color: rgba(0, 0, 0, 0.952);
