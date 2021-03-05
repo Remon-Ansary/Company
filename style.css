@@ -390,3 +390,59 @@ text-align: center;
 @media screen and (max-width:990px){
     .counter{ margin-bottom: 40px; }
 }
+
+
+/* search section */
+
+.bg-img3{
+  /* The image used */
+  background-image: url("img/search1.jpg");
+
+  min-height: 370px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.btn {
+  margin-right: 0.5rem !important
+}
+
+.btn {
+  font-size: 0.875rem;
+  line-height: 1;
+  font-weight: 400;
+  padding: .7rem 1.5rem;
+  border-radius: 0.1275rem
+}
+
+
+
+.toast {
+  transition: 0.32s all ease-in-out
+}
+
+.toast-container--fade {
+  right: 0;
+  bottom: 0
+}
+
+.toast-container--fade .toast-wrapper {
+  display: inline-block
+}
+
+.toast.fade-init {
+  opacity: 0
+}
+
+.toast.fade-show {
+  opacity: 1
+}
+
+.toast.fade-hide {
+  opacity: 0
+}
+/* search section */
